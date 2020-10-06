@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using aspnetDDD.Application.Dtos;
 using aspnetDDD.Domain.Entities;
 
-namespace aspnetDDD.Infrastructure.CrossCutting.Interfaces
+namespace aspnetDDD.Application.Interfaces.Mappers
 {
     public interface IMapperCliente
     {

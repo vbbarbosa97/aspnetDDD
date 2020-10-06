@@ -7,6 +7,12 @@
   <ItemGroup>
     <Folder Include="Dtos\" />
     <Folder Include="Interfaces\" />
+    <Folder Include="Interfaces\Mappers\" />
+    <Folder Include="Mappers\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\aspnetDDD.Domain.Core\aspnetDDD.Domain.Core.csproj" />
+    <ProjectReference Include="..\aspnetDDD.Domain\aspnetDDD.Domain.csproj" />
+  </ItemGroup>
 </Project>

@@ -7,9 +7,7 @@
   <ItemGroup>
     <Folder Include="Data\" />
     <Folder Include="CrossCutting\" />
-    <Folder Include="CrossCutting\Map\" />
     <Folder Include="CrossCutting\IOC\" />
-    <Folder Include="CrossCutting\Interfaces\" />
   </ItemGroup>
 
   <ItemGroup>

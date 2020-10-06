@@ -1,10 +1,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using aspnetDDD.Application.Dtos;
+using aspnetDDD.Application.Interfaces.Mappers;
 using aspnetDDD.Domain.Entities;
-using aspnetDDD.Infrastructure.CrossCutting.Interfaces;
 
-namespace aspnetDDD.Infrastructure.CrossCutting.Mapper
+namespace aspnetDDD.Application.Mappers
 {
     public class MapperProduto : IMapperProduto
     {

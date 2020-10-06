@@ -7,6 +7,9 @@
   <ItemGroup>
     <Folder Include="Data\" />
     <Folder Include="CrossCutting\" />
+    <Folder Include="CrossCutting\Map\" />
+    <Folder Include="CrossCutting\IOC\" />
+    <Folder Include="CrossCutting\Interfaces\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -16,6 +19,7 @@
   <ItemGroup>
     <ProjectReference Include="..\aspnetDDD.Domain.Core\aspnetDDD.Domain.Core.csproj" />
     <ProjectReference Include="..\aspnetDDD.Domain\aspnetDDD.Domain.csproj" />
+    <ProjectReference Include="..\aspnetDDD.Application\aspnetDDD.Application.csproj" />
   </ItemGroup>
 
 </Project>

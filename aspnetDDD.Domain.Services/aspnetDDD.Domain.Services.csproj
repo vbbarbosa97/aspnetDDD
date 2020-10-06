@@ -3,5 +3,9 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
-
+  
+  <ItemGroup>
+    <ProjectReference Include="..\aspnetDDD.Domain.Core\aspnetDDD.Domain.Core.csproj" />
+  </ItemGroup>
 </Project>
+

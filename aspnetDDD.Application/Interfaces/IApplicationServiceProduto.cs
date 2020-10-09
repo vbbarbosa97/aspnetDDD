@@ -10,6 +10,6 @@ namespace aspnetDDD.Application.Interfaces
         void Update(ProdutoDto produtoDto);
         void Remove(ProdutoDto produtoDto);
         IEnumerable<ProdutoDto> GetAll();
-        ClienteDto GetById(Guid Id);
+        ProdutoDto GetById(Guid Id);
     }
 }

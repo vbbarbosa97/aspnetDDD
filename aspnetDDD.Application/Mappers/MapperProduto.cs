@@ -12,7 +12,7 @@ namespace aspnetDDD.Application.Mappers
         {
             var produto = new Produto()
             {
-                Id = produtoDto.Id,
+                // Id = produtoDto.Id,
                 Nome = produtoDto.Nome,
                 Valor = produtoDto.Valor,
             };

@@ -7,10 +7,6 @@ namespace aspnetDDD.Infrastructure.Data
 {
     public class SqlContext : DbContext
     {
-        public SqlContext()
-        {
-        }
-
         public SqlContext(DbContextOptions<SqlContext> options) : base(options)
         {
         }

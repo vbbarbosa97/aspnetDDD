@@ -25,7 +25,7 @@ namespace aspnetDDD.Api
         public void ConfigureServices(IServiceCollection services)
         {
             var connection =  Configuration["SqlConnection:SqlConnectionString"];
-            services.AddDbContext<SqlContext>(options => options.UseMySql(connection));
+            services.AddDbContext<SqlContext>(options => options.UseMySql(connection, b => b.MigrationsAssembly("aspnetDDD.Infrastructure")));
             services.AddControllers();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
             services.AddSwaggerGen(c =>

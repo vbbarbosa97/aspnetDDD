@@ -12,7 +12,7 @@ namespace aspnetDDD.Application.Mappers
         {
             var cliente = new Cliente()
             {
-                Id = clienteDto.Id,
+                // Id = clienteDto.Id,
                 Nome = clienteDto.Nome,
                 Email = clienteDto.Email,
                 Sobrenome = clienteDto.Sobrenome,

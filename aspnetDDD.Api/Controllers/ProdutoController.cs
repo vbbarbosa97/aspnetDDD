@@ -39,7 +39,7 @@ namespace aspnetDDD.Api.Controllers
                     return NotFound();
                 }
                 _applicationSeviceProduto.Add(ProdutoDto);
-                return Ok("Cliente cadastrado com sucesso.");
+                return Ok("Produto cadastrado com sucesso.");
             }
             catch (Exception ex)
             {
@@ -57,7 +57,7 @@ namespace aspnetDDD.Api.Controllers
                     return NotFound();
                 }
                 _applicationSeviceProduto.Update(ProdutoDto);
-                return Ok("Cliente atualizado com sucesso.");
+                return Ok("Produto atualizado com sucesso.");
             }
             catch (Exception ex)
             {

@@ -13,7 +13,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\aspnetDDD.Domain.Core\aspnetDDD.Domain.Core.csproj"/>
-    <ProjectReference Include="..\aspnetDDD.Domain.Service\aspnetDDD.Domain.Service.csproj"/>
+    <ProjectReference Include="..\aspnetDDD.Domain.Services\aspnetDDD.Domain.Services.csproj"/>
     <ProjectReference Include="..\aspnetDDD.Domain\aspnetDDD.Domain.csproj"/>
     <ProjectReference Include="..\aspnetDDD.Application\aspnetDDD.Application.csproj"/>
   </ItemGroup>
